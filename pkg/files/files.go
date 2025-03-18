@@ -8,8 +8,7 @@ import (
 	"strings"
 )
 
-const initialFileContent = `
-# %s
+const initialFileContent = `# %s
 
 ## %s
 
@@ -50,7 +49,7 @@ func WriteInitialContent(fileName string) {
 	}
 	defer f.Close()
 
-	_, err = f.WriteString(fmt.Sprintf(initialFileContent, "", "TODO", "DOING", "DONE"))
+	_, err = f.WriteString(fmt.Sprintf(initialFileContent, GetDirectoryName(), "TODO", "DOING", "DONE"))
 	if err != nil {
 		log.Fatalf("Cannot write to the file (%v): %v", fileName, err)
 	}
