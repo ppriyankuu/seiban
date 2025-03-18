@@ -2,7 +2,7 @@
 Seiban—derived from the Japanese words "Seiri" (整理) meaning "organization" and "Kanban" (看板) meaning "signboard" — is a fast and simple terminal-based Kanban board manager. It enables users to efficiently manage tasks directly from the command line, streamlining workflow and enhancing productivity.
 
 ## Demo
-![demo](./demo/demo.mp4)
+![demo](./demo/demo.gif)
 
 ## Features
 - `Vim-Style Keybindings`: Navigate and manage tasks using familiar Vim commands for a seamless experience.
